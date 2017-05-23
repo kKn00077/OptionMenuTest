@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="kn0077.kr.hs.emirim.optionmenutest.MainActivity"
+    android:id="@+id/linear"
     android:orientation="vertical"
     >
 
