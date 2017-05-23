@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.item_red : linear.setBackgroundColor(Color.RED); return true;
             case R.id.item_yellow : linear.setBackgroundColor(Color.YELLOW); return true;
             case R.id.item_but_rotate : but.setRotation(but.getRotation()+45); return true; // 겟로테이션으로 현재 각도를 불러와 그 각도를 기준으로 45도씩 회전
-            case R.id.item_but_size : but.setScaleX(but.getScrollX()*1.5f); return true; // 현재 버튼 사이즈에서 가로(X)로 2배 세로로(Y) 2배
+            case R.id.item_but_size : but.setScaleX(but.getScaleX()*2); but.setScaleY(but.getScaleY()*2); return true; // 현재 버튼 사이즈에서 가로(X)로 2배 세로로(Y) 2배
         }
 
         return false;
